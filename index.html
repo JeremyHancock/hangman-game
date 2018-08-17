@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <script src="assets/javascript/game.js"></script>
+
+    <title>Guess the word!</title>
+</head>
+
+<body>
+    <div class="container">
+        <img id="header-image" src="assets/images/header.jpg" alt="Hangman Header Image" />
+        <div class="row">
+            <div class="col-md-6 gameplay-column">
+                <img id="victory-image" src="assets/images/Victory.png" alt="Victory Image" />
+                <img id="defeat-image" src="assets/images/defeat.jpg" alt="Defeat Image" />
+                <img id="hangmanImage" src="" alt="" />
+            </div>
+            <div class="col-md-6 gameplay-column">
+                <h2>Press the space bar to begin!</h2>
+                <h4>Wins</h4>
+                <h5 id="winsTotal"></h5>
+                <h4>Current Word</h4>
+                <h3 id="guessThisWord"></h3>
+                <h4>Guesses Remaining</h4>
+                <h6 id="numGuessesLeft">what?</h6>
+                <h4>Letters Guessed</h4>
+                <h3 id="guessLetters"></h3>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
