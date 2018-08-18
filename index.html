@@ -15,18 +15,31 @@
 <body>
     <div class="container">
         <img id="header-image" src="assets/images/header.jpg" alt="Hangman Header Image" />
+        <img id="victory-image" src="assets/images/Victory.png" alt="Victory Image" />
+        <img id="defeat-image" src="assets/images/defeat.jpg" alt="Defeat Image" />
+
+
         <div class="row">
             <div class="col-md-6 gameplay-column">
-                <img id="victory-image" src="assets/images/Victory.png" alt="Victory Image" />
-                <img id="defeat-image" src="assets/images/defeat.jpg" alt="Defeat Image" />
-                <img id="hangmanImage" src="" alt="" />
+                <h4 id="victoryCry">Victory is yours!</h4>
+                <h4 id="defeatCry">Defeat is upon you!</h4>
+                <h3>Press the space bar to get a new word!</h3>
+                <h4>Then, select any letter on your keyboard</h4>
+                <h4>The current word is:</h4>
+                <h3 id="guessThisWord"></h3>
+                <!-- <img id="aragorn-image" src="assets/images/aragorn.png" alt="Aragorn" />
+                <img id="athelas-image" src="assets/images/athelas.jpg" alt="Athelas" />
+                <img id="bombadil-image" src="assets/images/bombadil.jpg" alt="Bombadil" />
+                <img id="boromir-image" src="assets/images/boromir.jpg" alt="Boromir" />
+                <img id="butterbur-image" src="assets/images/butterbur.jpg" alt="Butterbur" />
+                <img id="denethor-image" src="assets/images/denethor.jpg" alt="Denethor" />
+                <img id="elrond-image" src="assets/images/elrond.jpg" alt="Elrond" /> -->
+
+
             </div>
             <div class="col-md-6 gameplay-column">
-                <h2>Press the space bar to begin!</h2>
                 <h4>Wins</h4>
                 <h5 id="winsTotal"></h5>
-                <h4>Current Word</h4>
-                <h3 id="guessThisWord"></h3>
                 <h4>Guesses Remaining</h4>
                 <h6 id="numGuessesLeft"></h6>
                 <h4>Letters Guessed</h4>
