@@ -1,4 +1,4 @@
-// Defines all global variables
+// Defines all variables
 var dictionary = ["GANDALF", "SAURON", "RIVENDELL", "HOBBITON", "SMEAGOL", "GOLLUM", "MORDOR", "LEGOLAS", "GIMLI", "SAMWISE", "MERIADOC", "PEREGRIN", "ENTMOOT", "UNDERHILL", "BOMBADIL", "LOTHLORIEN", "FRODO", "ARAGORN", "GALADRIEL", "BOROMIR", "FARAMIR", "EOWYN", "ISILDUR", "DENETHOR", "MITHRANDIR", "TREEBEARD", "NAZGUL", "THEODEN", "WORMTONGUE", "ATHELAS", "BUTTERBUR", "SHARKEY", "ELROND"];
 var string;
 var positions = [];
@@ -31,9 +31,10 @@ function startGame() {
         hiddenWord.push(" _ ");
 
     }
+
     //puts the underscores from hiddenWord in the user-visible, guessThisWord
     var hiddenWordMarks = document.getElementById("guessThisWord");
-    hiddenWordMarks.innerHTML = hiddenWord;
+    hiddenWordMarks.innerHTML = hiddenWord.join("");
 };
     //converts currentGuess from the key code to a string, which is always a single letter
 function convert() {
@@ -87,7 +88,7 @@ function evaluateGuess() {
     var guessedLettersArray = document.getElementById("guessLetters");
     guessedLettersArray.innerHTML = guessedLetters
     var fillInSpaces = document.getElementById("guessThisWord");
-    fillInSpaces.innerHTML = hiddenWord;
+    fillInSpaces.innerHTML = hiddenWord.join("");
     checkForVictory();
     
 };
