@@ -17,9 +17,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 #header-image, #defeat-image, #victory-image { 
     margin: 0 auto;
-    width: 55%;
+    max-height: 50%;
+    max-width: 55%;
     border: solid 1px grey;
-    display: none;
+    /* display: none; */
 }
 #victoryCry, #defeatCry {
     display: none;

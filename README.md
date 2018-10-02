@@ -7,8 +7,4 @@ To play, press any letter. If the letter you select is in the word it will show 
 
 **In the future, I hope to be able to fix a couple of things.
 
-One, there is no automatic reset so play can continue after both victory and defeat, which creates problems in the wins counter and brings the remaining guesses allowed into negative numbers, respectively.
-
-Two, I'd like to add an image that would be linked to each word guessed correctly, showing the character or place referenced so that people unfamiliar with The Lord of The Rings could learn something and existing fans could be rewarded for their success.
-
-Three, I'd like to add background music and triggered sounds, possibly randomized, for different events. For example, several negative quotes from the movie to play when a guessed letter is not in the word, several positive clips from the movie when a guessed letter is in the word, and a particular character quote for when a word is completed.**
+I'd like to add background music and triggered sounds, possibly randomized, for different events. For example, several negative quotes from the movie to play when a guessed letter is not in the word, several positive clips from the movie when a guessed letter is in the word, and a particular character quote for when a word is completed.**
