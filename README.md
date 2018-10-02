@@ -1,5 +1,5 @@
 # hangman-game
-Try the game out by clicking <a href "https://jeremyhancock.github.io/hangman-game/">here!</a>
+Try the game out by clicking <a href "https://jeremyhancock.github.io/hangman-game/"here!>
 
 All words are people, places, or events from The Lord of The Rings, by J.R.R. Tolkien, with references to the movies, directed by Peter Jackson. There are 33 words, which will be chosen at random by the program.
 
